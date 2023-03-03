@@ -1,0 +1,45 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    height: 100vh !important;
+    width: 100% !important;
+}
+
+.form-outer{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    width: 40% !important;
+    margin: 2rem !important;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.textField {
+    margin: .7rem !important;
+}
+
+.button {
+    margin: .7rem !important;
+}
+
+.formControl {
+    margin: .7rem !important;
+    display: flex;
+    /* min-width: 120;
+    max-width: 300; */
+}
+
+.custom-label{
+    margin: .7rem 0;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
